@@ -1,0 +1,53 @@
+
+body {
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  color: white;
+  font-family: 'Arial Black', sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.button {
+  background-color: yellow;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: white;
+}
+
+.video {
+  margin-top: 30px;
+}
