@@ -1,0 +1,39 @@
+
+body {
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  color: white;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 2em;
+}
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: 1em;
+}
+.btn {
+  display: inline-block;
+  padding: 1em 2em;
+  margin: 1em;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px white;
+}
+.btn.airdrop {
+  background: red;
+}
+.roadmap ul {
+  list-style: none;
+  padding: 0;
+}
+.roadmap li {
+  margin: 1em 0;
+  font-size: 1.2em;
+}
